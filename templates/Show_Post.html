@@ -1,0 +1,6 @@
+
+{% csrf_token %}
+    {% for i in post %}
+        <a href="/weblog/login/homepage/showpost/{{i.1}}"> {{i.0}} </a>
+    {% endfor %}
+  <a href="/weblog/login/homepage"> Return </a>

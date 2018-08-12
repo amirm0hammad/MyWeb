@@ -1,0 +1,6 @@
+<form action="/weblog/login/homepage/delete/" method="POST">
+  {% csrf_token %}
+      <p> Enter title to delete Post </p>
+  Tile: <input type="text" name="title"><br>
+  <input type="submit" value="Delete" >
+</form>

@@ -1,0 +1,7 @@
+<form action="/weblog/login/homepage/showpost/{{post_pk}}/" method="POST">
+  {% csrf_token %}
+  Add Comment: <input type="text" name="comment"><br>
+      <input type="checkbox" name="Like" checked> Like<br>
+  <input type="submit" value="Add">
+      <a href="/weblog/login/homepage"> Home Page </a>
+</form>

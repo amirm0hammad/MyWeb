@@ -1,0 +1,8 @@
+<form action="/weblog/login/homepage/update/" method="POST">
+  {% csrf_token %}
+  Title: <input type="text" name="title"><br>
+  Update_Post: <input type="text" name="update"><br>
+
+  <input type="checkbox" name="Like" value="Like"> Like<br>
+  <input type="submit" value="SUBMIT" >
+</form>
